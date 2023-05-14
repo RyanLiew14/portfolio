@@ -55,13 +55,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex flex-col ml-12 gap-8">
+          <div className="w-full flex flex-col gap-8">
             <div>
               <p className="font-mono text-teal-300">Hi, my name is</p>
               <p className="text-8xl font-sans font-extrabold text-slate-300 -ml-1">
                 Ryan Liew
               </p>
-              <p className="text-gray-800 dark:text-gray-400 mt-8">
+              <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm mr-12">
                 I am a Computer Science graduate with a passion for learning and
                 a focus on software engineering. I am committed to delivering
                 high-quality results and excel at adapting to new technologies.
@@ -79,7 +79,7 @@ const Home = () => {
           initial="hidden"
           animate="visible"
         >
-          <div className="w-full flex flex-col ml-12 gap-8">
+          <div className="w-full flex flex-col gap-8">
             <p className="text-center text-2xl font-sans font-extralight text-slate-300 -ml-1 mt-8 mb-12">
               A little more about me...
             </p>
@@ -92,12 +92,12 @@ const Home = () => {
           initial="hidden"
           animate="visible"
         >
-          <div className="w-full flex flex-col ml-12 gap-8">
+          <div className="w-full flex flex-col gap-8">
             <div>
               <p className="font-mono text-teal-300">
                 I am a competitive powerlifter
               </p>
-              <p className="text-gray-800 dark:text-gray-400 mt-8">
+              <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm mr-12">
                 As a competitive powerlifter, I bring the same level of
                 dedication, discipline, and determination to my professional
                 endeavors. The mindset of continuously pushing boundaries,
@@ -136,7 +136,7 @@ const Home = () => {
           animate="visible"
         >
           <div>
-            <div className="p-4 ml-6">
+            <div>
               <Image
                 src="/grad.jpg"
                 alt="grad"
@@ -145,12 +145,12 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className="w-full flex flex-col ml-12 gap-8">
+          <div className="w-full flex flex-col gap-8">
             <div>
               <p className="font-mono text-teal-300">
                 I graduated at the University Of Calgary
               </p>
-              <p className="text-gray-800 dark:text-gray-400 mt-8">
+              <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm mr-12">
                 I graduated from the University of Calgary with a &nbsp;
                 <span className="font-semibold">
                   BSc of Science, Major in Computer Science with a concentration
@@ -166,7 +166,7 @@ const Home = () => {
             <h2 className="text-2xl font-bold mb-4 mt-4">
               Skills and Expertise
             </h2>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
               <div className="flex flex-row items-center">
                 <SiReact size={48}></SiReact>{" "}
                 <p className="font-extralight ml-2"> React</p>
@@ -204,7 +204,7 @@ const Home = () => {
               </div>
             </div>
 
-            <p className="text-center font-extralight mt-4">
+            <p className="text-center font-extralight -mt-2">
               Always eager and passionate to learn more!
             </p>
           </div>
