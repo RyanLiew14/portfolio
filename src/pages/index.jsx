@@ -64,7 +64,7 @@ const Home = () => {
               <p className="text-8xl font-sans font-extrabold text-slate-300 -ml-1">
                 Ryan Liew
               </p>
-              <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm mr-12">
+              <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm">
                 I am a Computer Science graduate with a passion for learning and
                 a focus on software engineering. I am committed to delivering
                 high-quality results and excel at adapting to new technologies.
@@ -100,7 +100,7 @@ const Home = () => {
               <p className="font-mono text-teal-300">
                 I am a competitive powerlifter
               </p>
-              <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm mr-12">
+              <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm">
                 As a competitive powerlifter, I bring the same level of
                 dedication, discipline, and determination to my professional
                 endeavors. The mindset of continuously pushing boundaries,
@@ -153,7 +153,7 @@ const Home = () => {
               <p className="font-mono text-teal-300">
                 I graduated at the University Of Calgary
               </p>
-              <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm mr-12">
+              <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm">
                 I graduated from the University of Calgary with a &nbsp;
                 <span className="font-semibold">
                   BSc of Science, Major in Computer Science with a concentration
