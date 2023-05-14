@@ -216,7 +216,7 @@ const Home = () => {
         <section></section>
 
         <section>
-          <span className="flex display gap-4 justify-center text-2xl font-bold mb-4 text-center">
+          <span className="flex display gap-4 justify-center text-2xl font-bold mb-4 text-center mt-4">
             Portfolio <SiGithub size={32}></SiGithub>
           </span>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -304,7 +304,7 @@ const Home = () => {
         </section>
 
         <section>
-          <span className="flex display gap-4 justify-center text-2xl font-bold mb-4 text-center">
+          <span className="flex display gap-4 justify-center text-2xl font-bold mb-4 text-center mt-4">
             Contact Me <AiFillPhone size={32}></AiFillPhone>
           </span>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
