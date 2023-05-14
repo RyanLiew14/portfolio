@@ -6,6 +6,7 @@ import {
   SiGithub,
   SiGraphql,
   SiJavascript,
+  SiLinkedin,
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
@@ -13,6 +14,8 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
+
+import { AiFillPhone, AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 const Home = () => {
   const sectionVariants = {
@@ -296,6 +299,47 @@ const Home = () => {
               <p className="font-extralight mt-8">
                 **Just an idea, not much developed
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <span className="flex display gap-4 justify-center text-2xl font-bold mb-4 text-center">
+            Contact Me <AiFillPhone size={32}></AiFillPhone>
+          </span>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
+              <span className="flex flex-row items-center gap-2 text-lg font-semibold text-gray-800 dark:text-white">
+                Email <AiOutlineMail size={24}></AiOutlineMail>
+              </span>
+              <a
+                href="mailto:Ryan_L9@hotmail.com"
+                className="text-blue-500 dark:text-blue-400 mt-2 inline-block"
+              >
+                Ryan_L9@hotmail.com
+              </a>
+            </div>
+            <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
+              <span className="flex flex-row items-center gap-2 text-lg font-semibold text-gray-800 dark:text-white">
+                Phone <AiOutlinePhone size={24}></AiOutlinePhone>
+              </span>
+              <a
+                href="tel:(403)-966-2099"
+                className="text-blue-500 dark:text-blue-400 mt-2 inline-block"
+              >
+                (403) - 966 - 2099
+              </a>
+            </div>
+            <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
+              <span className="flex flex-row items-center gap-2 text-lg font-semibold text-gray-800 dark:text-white">
+                LinkedIn <SiLinkedin size={24}></SiLinkedin>
+              </span>
+              <a
+                href="https://linkedin.com/in/ryan-liew-1792311b7"
+                className="text-blue-500 dark:text-blue-400 mt-2 inline-block"
+              >
+                View here
+              </a>
             </div>
           </div>
         </section>
