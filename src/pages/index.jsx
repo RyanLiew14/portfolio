@@ -156,8 +156,9 @@ const Home = () => {
               <p className="text-gray-800 dark:text-gray-400 mt-8 md:text-base text-sm">
                 I graduated from the University of Calgary with a &nbsp;
                 <span className="font-semibold">
-                  BSc of Science, Major in Computer Science with a concentration
-                  in Software Engineering
+                  BSc of Science, Major in Computer Science with{" "}
+                  <span classname="font-extrabold">distinction</span> and
+                  concentration in software engineering
                 </span>
                 , I humbly bring a strong academic background and a commitment
                 to lifelong learning. This experience has instilled in me
