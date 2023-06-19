@@ -263,7 +263,7 @@ const Home = () => {
                 View Project
               </a>
             </div>
-            <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
+            {/* <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
               <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
                 LockedIn
               </h3>
@@ -300,7 +300,7 @@ const Home = () => {
               <p className="font-extralight mt-8">
                 **Just an idea, not much developed
               </p>
-            </div>
+            </div> */}
           </div>
         </section>
 
