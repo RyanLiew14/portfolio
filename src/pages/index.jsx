@@ -113,10 +113,10 @@ const Home = () => {
               </p>
 
               <p className="font-mono text-slate-300 mt-4">Current PRs: </p>
-              <p className="font-mono text-teal-300">Squat: 162.5kg/358lbs</p>
-              <p className="font-mono text-teal-300">Bench: 105kg/231lbs</p>
+              <p className="font-mono text-teal-300">Squat: 177.5kg/390lbs</p>
+              <p className="font-mono text-teal-300">Bench: 110kg/242lbs</p>
               <p className="font-mono text-teal-300">
-                Deadlift: 182.5kg/402lbs
+                Deadlift: 192.5kg/424lbs
               </p>
             </div>
           </div>
