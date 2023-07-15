@@ -41,7 +41,7 @@ const Home = () => {
 
       <main className="container mx-auto px-4 py-8">
         <motion.section
-          className="flex flex-col md:flex-row gap-8"
+          className="flex flex-col lg:flex-row gap-8"
           variants={sectionVariants}
           initial="hidden"
           animate="visible"
@@ -77,7 +77,7 @@ const Home = () => {
         </motion.section>
 
         <motion.section
-          className="flex flex-col md:flex-row gap-8"
+          className="flex flex-col lg:flex-row gap-8"
           variants={sectionVariants}
           initial="hidden"
           animate="visible"
@@ -90,7 +90,7 @@ const Home = () => {
         </motion.section>
 
         <motion.section
-          className="flex flex-col md:flex-row gap-8"
+          className="flex flex-col lg:flex-row gap-8"
           variants={sectionVariants}
           initial="hidden"
           animate="visible"
@@ -133,7 +133,7 @@ const Home = () => {
         </motion.section>
 
         <motion.section
-          className="flex flex-col md:flex-row gap-8 mt-8"
+          className="flex flex-col lg:flex-row gap-8 mt-8"
           variants={sectionVariants}
           initial="hidden"
           animate="visible"
