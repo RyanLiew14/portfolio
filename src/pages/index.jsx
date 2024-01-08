@@ -2,7 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import {
+  SiAngular,
   SiExpress,
+  SiFirebase,
   SiGithub,
   SiGraphql,
   SiJavascript,
@@ -13,6 +15,8 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiVercel,
+  SiVite,
 } from "react-icons/si";
 
 import { AiFillPhone, AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
@@ -220,7 +224,56 @@ const Home = () => {
           <span className="flex display gap-4 justify-center text-2xl font-bold mb-4 text-center mt-4">
             Portfolio <SiGithub size={32}></SiGithub>
           </span>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
+                Plate Loader
+              </h3>
+              <a
+                className="text-blue-500"
+                href="https://plate-loader-app.vercel.app/"
+              >
+                https://plate-loader-app.vercel.app/
+              </a>
+              <p className="text-gray-800 dark:text-gray-300">
+                Front-end application to remove guesswork from barbell loading
+              </p>
+              <div className="flex flex-row gap-2 mt-2">
+                <SiAngular size={24}></SiAngular>
+                <SiTypescript size={24}></SiTypescript>
+                <SiTailwindcss size={24}></SiTailwindcss>
+                <SiVercel size={24}></SiVercel>
+              </div>
+              <a
+                href="https://github.com/RyanLiew14/PlateLoader"
+                className="text-blue-500 dark:text-blue-400 mt-2 inline-block"
+              >
+                View Project
+              </a>
+            </div>
+            <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
+                LockedIn (WIP)
+              </h3>
+              <p className="text-gray-800 dark:text-gray-300">
+                LinkedIn clone, tailored towards gamers
+              </p>
+              <div className="-ml-2 flex flex-row gap-2 mt-2">
+                <SiFirebase size={24}></SiFirebase>
+                <SiReact size={24}></SiReact>
+                <SiTypescript size={24}></SiTypescript>
+                <SiTailwindcss size={24}></SiTailwindcss>
+                <SiVite size={24}></SiVite>
+                <SiNodedotjs size={24}></SiNodedotjs>
+              </div>
+              <a
+                href="https://github.com/RyanLiew14/LockedIn"
+                className="text-blue-500 dark:text-blue-400 mt-2 inline-block"
+              >
+                View Project
+              </a>
+            </div>
             <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
               <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
                 Portfolio
@@ -263,44 +316,6 @@ const Home = () => {
                 View Project
               </a>
             </div>
-            {/* <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                LockedIn
-              </h3>
-              <p className="text-gray-800 dark:text-gray-300">
-                LinkedIn clone, tailored towards gamers
-              </p>
-              <div className="-ml-2 flex flex-row gap-2 mt-2">
-                <SiMongodb size={24}></SiMongodb>
-                <SiReact size={24}></SiReact>
-                <SiJavascript size={24}></SiJavascript>
-                <SiTailwindcss size={24}></SiTailwindcss>
-                <SiExpress size={24}></SiExpress>
-                <SiNodedotjs size={24}></SiNodedotjs>
-              </div>
-              <p className="font-extralight mt-8">
-                **Just an idea, not much developed
-              </p>
-            </div>
-            <div className="bg-white dark:bg-gray-700 p-4 shadow-sm rounded-md">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                MonkeyTypeRacer
-              </h3>
-              <p className="text-gray-800 dark:text-gray-300">
-                MonkeyType, but multiplayer
-              </p>
-              <div className="-ml-2 flex flex-row gap-2 mt-2">
-                <SiMongodb size={24}></SiMongodb>
-                <SiReact size={24}></SiReact>
-                <SiJavascript size={24}></SiJavascript>
-                <SiTailwindcss size={24}></SiTailwindcss>
-                <SiExpress size={24}></SiExpress>
-                <SiNodedotjs size={24}></SiNodedotjs>
-              </div>
-              <p className="font-extralight mt-8">
-                **Just an idea, not much developed
-              </p>
-            </div> */}
           </div>
         </section>
 
